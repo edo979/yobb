@@ -1,4 +1,4 @@
 yobb
 ====
 
-Learning yoeman and backbone also grunt
+Learning yeoman, grunt, backbone, mocha...
