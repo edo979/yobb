@@ -1,0 +1,13 @@
+{
+  "name": "yobackbone",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery": "latest",
+    "underscore": "latest",
+    "backbone": "latest",
+    "modernizr": "latest",
+    "backbone.localStorage": "latest",
+    "showdown": "latest"
+  },
+  "devDependencies": {}
+}
