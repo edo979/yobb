@@ -9,9 +9,14 @@
 <body>
     <div id="mocha"></div>
 
+    <!-- Test Fixtures. -->
+    <div id="fixtures" style="display: none; visibility: hidden;"></div>
+
     <!-- JavaScript Test Libraries. -->
     <script src="bower_components/mocha/mocha.js"></script>
     <script src="bower_components/chai/chai.js"></script>
+    <script src="bower_components/sinon-chai/lib/sinon-chai.js"></script>
+    <script src="bower_components/sinon/index.js"></script>
 
     <!-- javaScript Core files -->
     <script src="bower_components/jquery/jquery.js"></script>
@@ -33,6 +38,10 @@
 
     <script src="scripts/models/note.js"></script>
     <script src="scripts/collections/notes.js"></script>
+    <script src="scripts/templates/templates.js"></script>
+    <script src="scripts/views/note-view.js"></script>
+    <script src="scripts/views/note-nav.js"></script>
+
 
     <script>
        var expect = chai.expect;
@@ -50,5 +59,7 @@
     <script src="spec/namespace.spec.js"></script>
     <script src="spec/models/note.spec.js"></script>
     <script src="spec/collections/notes.spec.js"></script>
+    <script src="spec/views/note-view.spec.js"></script>
+    <script src="spec/views/note-nav.spec.js"></script>
 </body>
 </html>
