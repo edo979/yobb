@@ -9,5 +9,8 @@
     "backbone.localStorage": "latest",
     "showdown": "latest"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "chai": "latest",
+    "mocha": "latest"
+  }
 }
